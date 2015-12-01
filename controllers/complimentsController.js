@@ -26,4 +26,10 @@ var complimentsController = {
   }
 }
 
+function donothing() {
+  console.log("This does nothing")
+}
+
+donothing();
+
 module.exports = complimentsController;
