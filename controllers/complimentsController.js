@@ -21,7 +21,9 @@ var complimentsController = {
   }
   // edit action code goes here...
 
- // update action code goes here...
+  update: function(req, res){
+   console.log("lololol this does nothing");
+  }
 }
 
 module.exports = complimentsController;
