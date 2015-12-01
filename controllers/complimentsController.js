@@ -28,6 +28,14 @@ var complimentsController = {
     //dummy code for changes
   }
  // update action code goes here...
+  update: function(req, res){
+   console.log("lololol this does nothing");
+  }
 }
+function donothing() {
+  console.log("This does nothing")
+}
+
+donothing();
 
 module.exports = complimentsController;
