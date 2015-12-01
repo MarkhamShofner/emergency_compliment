@@ -25,6 +25,7 @@ var complimentsController = {
     var compliment = Compliment.create(req.body.compliment)
     // redirect to compliment
     res.render("compliments/edit.hbs")
+    //dummy code for changes
   }
  // update action code goes here...
 }
